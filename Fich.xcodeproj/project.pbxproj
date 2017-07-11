@@ -13,6 +13,7 @@
 		C80DE9E11F15445D00C024A6 /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80DE9DF1F15445D00C024A6 /* DeviceViewController.xib */; };
 		C80DE9E41F1548DD00C024A6 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DE9E21F1548DD00C024A6 /* DeviceCell.swift */; };
 		C80DE9E51F1548DD00C024A6 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80DE9E31F1548DD00C024A6 /* DeviceCell.xib */; };
+		C83B63E31F155A7A00F14E78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C83B63E21F155A7A00F14E78 /* GoogleService-Info.plist */; };
 		C840AC9E1F1225FA00FD7C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840AC9D1F1225FA00FD7C92 /* AppDelegate.swift */; };
 		C840ACA01F1225FA00FD7C92 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840AC9F1F1225FA00FD7C92 /* LoginViewController.swift */; };
 		C840ACA31F1225FA00FD7C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C840ACA11F1225FA00FD7C92 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		C80DE9DF1F15445D00C024A6 /* DeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
 		C80DE9E21F1548DD00C024A6 /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 		C80DE9E31F1548DD00C024A6 /* DeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		C83B63E21F155A7A00F14E78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C840AC9A1F1225FA00FD7C92 /* Fich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C840AC9D1F1225FA00FD7C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C840AC9F1F1225FA00FD7C92 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		C840AC9C1F1225FA00FD7C92 /* Fich */ = {
 			isa = PBXGroup;
 			children = (
+				C83B63E21F155A7A00F14E78 /* GoogleService-Info.plist */,
 				C840ACA41F1225FA00FD7C92 /* Assets.xcassets */,
 				C840AC9D1F1225FA00FD7C92 /* AppDelegate.swift */,
 				C80DE9D21F15396F00C024A6 /* API */,
@@ -207,6 +210,7 @@
 				C840ACA31F1225FA00FD7C92 /* Main.storyboard in Resources */,
 				C80DE9D61F15408200C024A6 /* LobbyViewController.xib in Resources */,
 				C80DE9E51F1548DD00C024A6 /* DeviceCell.xib in Resources */,
+				C83B63E31F155A7A00F14E78 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +400,7 @@
 				DEVELOPMENT_TEAM = J4SBTXU25L;
 				INFOPLIST_FILE = Fich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fichteam.Fich;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fichteam.fich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -410,7 +414,7 @@
 				DEVELOPMENT_TEAM = J4SBTXU25L;
 				INFOPLIST_FILE = Fich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fichteam.Fich;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fichteam.fich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

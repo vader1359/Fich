@@ -7,5 +7,9 @@ target 'Fich' do
 
   # Pods for Fich
   pod 'RxBluetoothKit'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
   
 end
