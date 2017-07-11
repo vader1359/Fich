@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  Fich
 //
 //  Created by Tran Tien Tin on 7/9/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onLogin(_ sender: UIButton) {
+        let lobbyVC = LobbyViewController(nibName: "LobbyViewController", bundle: nil)
+        
+        present(lobbyVC, animated: true, completion: nil)
+    }
 
 }
 
