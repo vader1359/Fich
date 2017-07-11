@@ -6,5 +6,6 @@ target 'Fich' do
   use_frameworks!
 
   # Pods for Fich
-
+  pod 'RxBluetoothKit'
+  
 end
